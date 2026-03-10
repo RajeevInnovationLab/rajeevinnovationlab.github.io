@@ -11,12 +11,6 @@ text-align:center;
 background:black;
 }
 
-section{
-max-width:900px;
-margin:auto;
-padding:40px;
-}
-
 .project{
 background:#1b1b1b;
 padding:20px;
@@ -26,4 +20,10 @@ border-radius:10px;
 h2{
 border-bottom:2px solid #444;
 padding-bottom:10px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px;
 }
