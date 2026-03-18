@@ -60,3 +60,30 @@ border-radius:10px;
 transform:scale(1.03);
 transition:0.3s;
 }
+
+/* ---------- Hero Section ---------- */
+
+.hero{
+display:flex;
+align-items:center;
+gap:40px;
+}
+
+.hero img{
+width:150px;
+height:150px;
+object-fit:cover;
+border-radius:50%;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h2{
+margin:0;
+}
+
+.hero-text p{
+margin:5px 0;
+}
