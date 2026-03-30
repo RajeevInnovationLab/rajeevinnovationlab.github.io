@@ -109,6 +109,13 @@ transition:0.3s;
 transform:scale(1.03);
 }
 
+.project img{
+width:100%;
+height:auto;
+border-radius:8px;
+margin-bottom:15px;
+}
+
 /* ---------- Mobile Responsive ---------- */
 
 @media (max-width: 768px){
