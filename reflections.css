@@ -1,0 +1,63 @@
+/* ---------- Reflections Vintage Theme ---------- */
+
+.logbook {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #f4f1ea; /* Parchment Color */
+    color: #3e362e;
+    padding: 40px;
+    border: 1px solid #d2c1b0;
+    border-radius: 4px;
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.05), 5px 5px 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.log-entry.highlight {
+    text-align: center;
+    border-bottom: 2px double #d2c1b0;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.quote {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #2a241e;
+    margin-bottom: 10px;
+}
+
+.pathway {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #8b4513;
+    font-size: 1.2rem;
+}
+
+.log-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.log-item {
+    padding: 15px;
+    border-left: 1px solid #8b4513;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.log-item:hover {
+    background: rgba(139, 69, 19, 0.05);
+}
+
+.log-item.emphasis {
+    grid-column: span 2;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-top: 1px solid #d2c1b0;
+    margin-top: 20px;
+}
