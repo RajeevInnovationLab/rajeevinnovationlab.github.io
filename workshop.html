@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Workshops | Rajeev Sahaya</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="workshops.css">
 </head>
 <body>
   <div id="scroll-indicator-container">
@@ -23,11 +26,20 @@
     </nav>
   </header>
 
-  <section class="container">
-    <h2>Conducted Workshops</h2>
-    <p>A track record of sharing knowledge across various engineering institutions.</p>
+  <main class="container">
+    <section class="hero reveal">
+      <div class="hero-text">
+        <p class="eyebrow">Workshops</p>
+        <h1>Hands-on sessions for emerging engineers</h1>
+        <p class="intro">I design and deliver practical workshops that bridge theory with robotics, automation, and embedded systems.</p>
+      </div>
+    </section>
 
-    <!-- Workshop 1 -->
+    <section class="workshop-list reveal">
+      <h2>Conducted Workshops</h2>
+      <p>A track record of sharing knowledge across engineering institutions through immersive, project-based learning.</p>
+
+      <!-- Workshop 1 -->
     <div class="project reveal">
       <span class="workshop-date">October 12-13, 2023</span>
       <h3>Thadomal Shahani Engineering College</h3>
@@ -118,20 +130,23 @@
       </div>
     </div>
 
-    <h2>Upcoming Workshops</h2>
-    <p>Get involved in my next hands-on sessions.</p>
-    <div class="project reveal">
-      <span class="workshop-date">Coming Soon</span>
-      <h3>Advanced Drone Swarm Simulation</h3>
-      <p>A virtual workshop on multi-agent systems and decentralized control.</p>
-    </div>
-    <div class="project reveal">
-      <span class="workshop-date">June 2024</span>
-      <h3>ROS2 Fundamentals</h3>
-      <p>Introduction to the Robot Operating System for modern robotics development.</p>
-    </div>
+    </section>
 
-  </section>
+    <section class="upcoming-workshops reveal">
+      <h2>Upcoming Workshops</h2>
+      <p>Get involved in my next hands-on sessions.</p>
+      <div class="project">
+        <span class="workshop-date">Coming Soon</span>
+        <h3>Advanced Drone Swarm Simulation</h3>
+        <p>A virtual workshop on multi-agent systems and decentralized control.</p>
+      </div>
+      <div class="project">
+        <span class="workshop-date">June 2024</span>
+        <h3>ROS2 Fundamentals</h3>
+        <p>Introduction to the Robot Operating System for modern robotics development.</p>
+      </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
